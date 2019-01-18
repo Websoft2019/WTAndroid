@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+            <ImageView
+                android:id="@+id/headlineImage"
+                android:src="@drawable/namecard"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="200dp" />
+            <TextView
+                android:id="@+id/headlineTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/headlineImage"
+                android:text="आजको ताजा खबर"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/lightBlack"
+                />
+            <TextView
+                android:id="@+id/headlineDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/headlineTitle"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:maxLines="2"
+                android:textSize="15sp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:text="३ माघ, बिर्तामोड । नेपाल कम्युनिस्ट पार्टीका नेता योगेश भट्टराईले नेपाल बाहिर विद्यार्थी बेच्न खुलेका काराखानाले डा. गोबिन्द केसीलाई उचालेर पटकपटक अनसन बसाल्ने गरेको आरोप लगाएका छन् । झापाको बिर्तामोडमा बिहीबार सञ्चारकर्मीसाग कुरा गर्दै संसदको शिक्षा तथा स्वास्थ्य समितिका सदस्य समेत रहेका भट्टराईले चिकित्सा शिक्षा विधेयकले डा. केसीका माग पूरा गरिसकेको दावी गरे ।"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
