@@ -6,9 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+<<<<<<< Updated upstream
     tools:openDrawer="start"
 
     >
+=======
+    tools:openDrawer="start">
+>>>>>>> Stashed changes
 
     <include
         layout="@layout/app_bar_home"
@@ -16,6 +20,7 @@
         android:layout_height="match_parent" />
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< Updated upstream
             android:layout_height="wrap_content"
 
 
@@ -35,6 +40,24 @@
                 android:id="@+id/headlineViewPager"
                 android:layout_below="@+id/headline"
                 android:layout_width="match_parent"
+=======
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp">
+            <!--<TextView-->
+                <!--android:id="@+id/headline"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:textSize="25sp"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:text="हेडलाईन"-->
+                <!--android:textStyle="bold"       android:layout_below="@+id/headline"
+/>-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/headlineViewPager"
+                         android:layout_width="match_parent"
+>>>>>>> Stashed changes
                 android:layout_height="match_parent"
                 android:foregroundGravity="center"
                 android:layout_centerInParent="true"
@@ -49,7 +72,11 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+<<<<<<< Updated upstream
         android:layout_gravity="start"
+=======
+        android:layout_gravity="end"
+>>>>>>> Stashed changes
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_home"
         app:menu="@menu/activity_home_drawer" />

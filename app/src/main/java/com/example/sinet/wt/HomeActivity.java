@@ -1,10 +1,16 @@
 package com.example.sinet.wt;
 
+<<<<<<< Updated upstream
 import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
+=======
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+>>>>>>> Stashed changes
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,6 +20,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< Updated upstream
 import android.view.ViewGroup;
 import android.widget.Adapter;
 
@@ -22,15 +29,20 @@ import com.example.sinet.wt.Model.HeadlineModel;
 
 import java.util.ArrayList;
 import java.util.List;
+=======
+>>>>>>> Stashed changes
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+<<<<<<< Updated upstream
 
     ViewPager viewPager;
     HeadlineAdapter adapter;
     List<HeadlineModel> models;
 
+=======
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +60,7 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+<<<<<<< Updated upstream
 
         //headlines swipe layout
 
@@ -61,6 +74,8 @@ public class HomeActivity extends AppCompatActivity
         viewPager=findViewById(R.id.headlineViewPager);
         viewPager.setAdapter(adapter);
 
+=======
+>>>>>>> Stashed changes
     }
 
     @Override
